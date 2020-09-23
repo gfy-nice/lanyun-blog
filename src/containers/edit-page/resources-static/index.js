@@ -1,5 +1,6 @@
 import Npm from "./npm"
-
+import Git from "./git"
 export default {
-    "npm": Npm
+    "npm": Npm,
+    "git":Git
 }

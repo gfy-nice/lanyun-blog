@@ -19,7 +19,7 @@ export default class EditPage extends React.Component {
     setEditorContentAsync = () => {
         this.isLivinig && this.setState({
             // editorState: BraftEditor.createEditorState('<p>你好，<b>世界!</b><p>')
-            editorState: BraftEditor.createEditorState(ResStatic.npm)
+            editorState: BraftEditor.createEditorState(ResStatic.git)
         })
     };
 

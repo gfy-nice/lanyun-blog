@@ -18,7 +18,7 @@ export default class Program extends React.Component {
 
     render() {
         return <div id="program-box">
-            <div className="output-html-box" dangerouslySetInnerHTML={{__html: ResStatic.npm}}/>
+            <div className="output-html-box" dangerouslySetInnerHTML={{__html: ResStatic.git}}/>
         </div>
     }
 }

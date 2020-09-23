@@ -2,25 +2,103 @@
     position: absolute;
     top: 1rem;
     left: 2rem;
-    z-index: 1;
+    z-index: 2;
     font-size: 2rem;
     color: white;
 }
 
+/**
+ ***************************************************
+ 路由按钮
+ ***************************************************
+ */
 .link-box {
     position: absolute;
     bottom: 0;
+    z-index: 2;
 }
 
 .link-item {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    overflow: hidden;
+    border: #9a9a9a solid 0.0625rem;
+    position: absolute;
+    z-index: 2;
+    bottom: 1rem;
+    left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff38;
+    cursor: pointer;
+}
+
+.link-item label {
+    cursor: pointer;
 }
 
 .link-item img {
     width: 100%;
 }
 
+.link-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-mine {
+
+}
+
+.link-program {
+    left: 6rem;
+    bottom: 6rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.link-adobe {
+    left: 2.5rem;
+    bottom: 10.5rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.link-life {
+    left: 5.5rem;
+    bottom: 2.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.link-book {
+    left: 5.5rem;
+    bottom: 15.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.link-idol {
+    left: 0.5rem;
+    bottom: 6.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.link-edit {
+    left: 0.5rem;
+    bottom: 14.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+/**
+ ***************************************************
+ 背景，banner
+ ***************************************************
+ */
 .banner-box {
     position: absolute;
     width: 100%;
@@ -28,6 +106,7 @@
     top: 0;
     left: 0;
     overflow: hidden;
+    z-index: 1;
 }
 
 .banner-box img {
@@ -35,15 +114,20 @@
 }
 
 .bg-mask {
+    /*background: rgb(0 0 0 / 20%);*/
     position: absolute;
     z-index: 11;
-    height: 10%;
+    height: 100%;
     width: 100%;
-    background: rgb(0 0 0 / 20%);
-    top: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-size: 1.4rem;
-    color: #c9c1c1;
+    color: #e8e8e8;
+    top: 0;
+}
+
+.bg-mask div {
+    height: 2.5rem;
 }
