@@ -1,0 +1,14 @@
+#editor-box {
+    display: flex;
+
+}
+
+.braft-editor {
+    width: 49%;
+    border: #dfdfdf solid 1px;
+}
+
+.output-content {
+    width: 49%;
+    border: #dfdfdf solid 1px;
+}

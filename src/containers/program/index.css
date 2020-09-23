@@ -1,0 +1,11 @@
+#program-box {
+    background: #dfdfdf;
+}
+
+.output-html-box {
+    width: 80%;
+    background: #fff;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
